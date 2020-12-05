@@ -43,7 +43,7 @@ function keyPressed(){
 	if(keyCode === UP_ARROW){
 
 		// your object is paper so that name you give.. try now
-		Matter.Body.applyForce(paper.body,paper.position,{x:85,y:-85})
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:85,y:-85})
 
 
 	}
